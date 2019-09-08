@@ -293,7 +293,7 @@
         <div class="row">
           <!--  <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="gallery-title">Gallery</h1>
-        </div> --->
+        </div> -->
 
           <div align="center">
             <button class="btn btn-default filter-button" data-filter="all">
@@ -486,12 +486,10 @@
           var value = $(this).attr('data-filter');
 
           if (value == "all") {
-            //$('.filter').removeClass('hidden');
             $('.filter').show('1000');
           }
           else {
-            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+
             $(".filter").not('.' + value).hide('3000');
             $('.filter').filter('.' + value).show('3000');
 
@@ -506,7 +504,7 @@
       });
     </script>
     <!--JQUERY 1.12.1-->
-    <script src="./js/jquery-1.12.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--BOOTSTRAP JS-->
     <script src="./js/bootstrap.min.js"></script>
     <!--OWL CAROUSEL-->
