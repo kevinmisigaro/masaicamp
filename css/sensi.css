@@ -395,7 +395,7 @@ body {
 strong.logo {
 	float: left;
 	margin: 0;
-	border-right: 1px solid #ccc;
+	/*border-right: 1px solid #ccc;*/
 	padding: 20px 30px 20px 0;
 }
 .book-section {
@@ -420,7 +420,7 @@ strong.logo {
 	margin: 0 0 0 15px;
 }
 .number-text:before {
-	content: '';
+	/*content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -430,7 +430,7 @@ strong.logo {
 	height: 0;
 	border-style: solid;
 	border-width: 4px 0 4px 4px;
-	border-color: transparent transparent transparent #cccccc;
+	border-color: transparent transparent transparent #cccccc;*/
 }
 .number-box span {
 	font: 400 14px/14px 'Montserrat', sans-serif;
@@ -444,10 +444,10 @@ strong.logo {
 	display: block;
 }
 .number-box:hover .number-text {
-	border-left: 1px solid;
+	/*border-left: 1px solid;*/
 }
 .number-box:hover .fa {
-	color: #777;
+	/*color: #777;*/
 }
 .book-section a.btn-book {
 	float: right;
